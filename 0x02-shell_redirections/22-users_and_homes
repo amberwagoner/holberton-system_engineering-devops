@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -s -f "name" "directory" /etc/passwd | sort
+cut -sf "name" "directory" /etc/passwd | sort
