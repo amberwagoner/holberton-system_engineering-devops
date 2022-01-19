@@ -1,0 +1,2 @@
+#!/bin/bash
+printf {a..z}{a..z}\n | grep -i "oo" | cut -c1-64
