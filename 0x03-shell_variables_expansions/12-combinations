@@ -1,2 +1,2 @@
 #!/bin/bash
-printf %s\\n "$(echo {a..z}{a..z})" | grep -i "oo" | cut -c1-64
+printf %s\\n "$(echo {a..z}{a..z})" | grep -v "oo"
