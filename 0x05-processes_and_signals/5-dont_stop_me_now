@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# This script stops the infinite loop occuring in 4-to_infinity_and_beyond.
+kill "$(pgrep -f 4-to_infinity_and_beyond)"
