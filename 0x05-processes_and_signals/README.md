@@ -33,11 +33,12 @@ At the end of this project, I will be able to explain the following concepts:
 *Write a Bash script that stops `4-to_infinity_and_beyond` process. You cannot use `kill` or `killall`.*
 
 ### 7. Highlander
-*Write a Bash script that displays:
+*Write a Bash script that displays:*
 - `To infinity and beyond` indefinitely
 - With a `sleep 2` in between each iteration
 - `I am invincible!!!` when receiving a `SIGTERM` signal
-Make a copy of your `6-stop_me_if_you_can` script, name it `67-stop_me_if_you_can`, that kills the `7-highlander` process instead of the `4-to_infinity_and_beyond` one.*
+
+*Make a copy of your `6-stop_me_if_you_can` script, name it `67-stop_me_if_you_can`, that kills the `7-highlander` process instead of the `4-to_infinity_and_beyond` one.*
 
 ### 8. Beheaded process
 *Write a Bash script that kills the process `7-highlander`.*
