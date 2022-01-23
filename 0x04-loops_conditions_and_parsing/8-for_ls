@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#This script displays the content of the current directory, in list format, without their respective assigned numbers.
+cd=$(ls)
+file=0
+for file in $cd
+do
+    echo "$file" | cut -f2 -d "-"
+done
