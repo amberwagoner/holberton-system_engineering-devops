@@ -3,5 +3,6 @@
 i=0
 until ((i>11))
 do
-	echo "Best School"
+    echo "Best School"
+    ((i++))
 done
