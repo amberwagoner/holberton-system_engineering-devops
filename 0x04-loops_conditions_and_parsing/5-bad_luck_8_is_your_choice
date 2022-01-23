@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 # This script loops from 1 to 10 and displays certain text on the 4th and 8th loop iteration.
 i=1
-while ((i<11))
+while (( i<=10 ))
 do
-    echo "Best School"
-if [ $i = 4 ]
-then
+    if (( i==4 ))
+    then
 	echo "bad luck"
-elif [ $i = 8 ]
-then
+    elif (( i==8 ))
+    then
 	echo "good luck"
-else
+    else
 	echo "Best School"
-fi
+    fi
+    (( i++ ))
 done
